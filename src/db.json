@@ -1,0 +1,60 @@
+{
+  "registers": [
+    {
+      "id": "3",
+      "name": "Jacquelyn",
+      "cpf": "15-401-4813",
+      "number": "70-293-6591",
+      "email": "jkeeri2@patch.com",
+      "address": "Room 1526"
+    },
+    {
+      "id": "4",
+      "name": "Murielle",
+      "cpf": "95-948-2257",
+      "number": "90-349-4752",
+      "email": "mwhelan3@bravesites.com",
+      "address": "Suite 86"
+    },
+    {
+      "id": "5",
+      "name": "Celinka",
+      "cpf": "70-689-2062",
+      "number": "74-826-2140",
+      "email": "cavramovic4@dagondesign.com",
+      "address": "Apt 315"
+    },
+    {
+      "id": "0cd1",
+      "name": "Matheus Oliveira Monteiro",
+      "cpf": "169.068.667",
+      "email": "mathspa98@gmail.com",
+      "number": "22988247725",
+      "address": "Rodovia amaral peixoto Km 103 lote 19 Quadra 13"
+    },
+    {
+      "id": "5b3f",
+      "name": "Matheus Oliveira Monteiro",
+      "cpf": "169.068.667",
+      "email": "mathspa98@gmail.com",
+      "number": "22988247725",
+      "address": ""
+    },
+    {
+      "id": "6059",
+      "name": "Matheus Oliveira Monteiro",
+      "cpf": "169.068.667",
+      "email": "mathspa98@gmail.com",
+      "number": "22988247725",
+      "address": "Rodovia amaral peixoto Km 103 lote 19 Quadra 13"
+    },
+    {
+      "id": "a126",
+      "name": "Matheus Oliveira Monteiro",
+      "cpf": "169.068.667",
+      "email": "mathspa98@gmail.com",
+      "number": "22988247725",
+      "address": "Rodovia amaral peixoto Km 103 lote 19 Quadra 13"
+    }
+  ]
+}
