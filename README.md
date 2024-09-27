@@ -31,40 +31,39 @@ Esta é uma aplicação simples de CRUD que demonstra como criar, ler, atualizar
    cd hkl-test
 ```
 
-2.Instale as dependências:
+2. Instale as dependências:
 
 ```bash
-  npm install my-project
-  cd my-project
+  pnpm install
   cd src
 ```
 
-Inicie o servidor de API mock na pasta /src:
+3. Inicie o servidor de API mock na pasta /src:
 
 ```bash
 npx json-server db.json
 ```
 
-Execute a aplicação:
+4. Abra outro terminal e execute a aplicação:
 
 ```bash
-Copiar código
-npm start
+npm run dev
 ```
 
-A aplicação estará disponível em http://localhost:3000.
+A aplicação estará disponível em http://localhost:3001.
 
 ## Uso:
 
-**Página Inicial**: Exibe uma lista de registros obtidos da API mock. Você pode editar ou excluir qualquer registro diretamente desta lista.
+**Página Inicial**: Permite a escolha do usuário entre ir para a Página de Listagem ou Formulário de Adição.
 **Formulário de Adição:** Permite que os usuários criem um registro. O formulário é construído utilizando React Hook Form e validado com Zod. Os seguintes campos são fornecidos:
-Nome (obrigatório)
-CPF (obrigatório)
-Email (obrigatório)
-Telefone (obrigatório)
-Endereço (opcional)
 
-**Página de listagem:** Permite a visualização dos usuários cadastrados, assim como a edição dos dados diretamente na tabela, assim como sua remoção.
+- Nome (obrigatório)
+- CPF (obrigatório)
+- Email (obrigatório)
+- Telefone (obrigatório)
+- Endereço (opcional)
+
+**Página de Listagem:** Exibe uma lista de registros obtidos da API mock. Você pode editar ou excluir qualquer registro diretamente desta lista.
 
 ## Estrutura do Projeto
 
@@ -78,14 +77,14 @@ src/
 
 Esta aplicação utiliza o json-server para simular uma API RESTful. Os dados são armazenados no arquivo db.json, e os seguintes endpoints estão disponíveis:
 
-GET /registers: Buscar todos os registros
-POST /registers: Criar um novo registro
-PUT /registers/:id: Atualizar um registro existente
-DELETE /registers/:id: Excluir um registro
+- GET /registers: Buscar todos os registros
+- POST /registers: Criar um novo registro
+- PUT /registers/:id: Atualizar um registro existente
+- DELETE /registers/:id: Excluir um registro
 
 ## Melhorias Futuras
 
-Adicionar autenticação e autorização de usuários
-Melhorar a validação de formulários com feedback mais detalhado
-Melhorar o tratamento de erros e estados de carregamento
-Implementar paginação para grandes conjuntos de dados
+- Adicionar autenticação e autorização de usuários
+- Melhorar a validação de formulários com feedback mais detalhado
+- Melhorar o tratamento de erros e estados de carregamento
+- Implementar paginação para grandes conjuntos de dados
